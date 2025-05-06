@@ -1,0 +1,41 @@
+@import url('reset.css');
+
+[class*="de"] {
+	color: rgb(241, 198, 5);
+}
+.title,
+.text {
+	color: rgb(6, 84, 3);
+}
+.list .list-item {
+	color: rgb(255, 77, 0);
+}
+.big-title {
+   color:rgb(16, 79, 236) 
+}
+.text-blue {
+    color: blue;
+}
+.text-blue  span {
+    color:rgba(120, 4, 197, 0.986)
+}
+
+.items li {
+    color:rgb(141, 153, 8)
+}
+
+#population .title {
+    color:rgb(140, 5, 138)
+}
+#population > p {
+    color:rgb(180, 59, 7)
+}
+.castle > h2 {
+    color: rgba(227, 113, 6, 0.986);
+}
+.castle p {
+    color: rgba(83, 47, 3, 0.986);
+}
+.footer-link {
+    color:rgba(4, 137, 246, 0.986);
+}
