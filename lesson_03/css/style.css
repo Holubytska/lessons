@@ -1,7 +1,7 @@
 @import url('reset.css');
 
 [class*="de"] {
-	color: rgb(241, 198, 5);
+	color: rgb(204, 191, 6);
 }
 .title,
 .text {
@@ -10,32 +10,85 @@
 .list .list-item {
 	color: rgb(255, 77, 0);
 }
-.big-title {
-   color:rgb(16, 79, 236) 
+[href="#climate"] {
+    color:rgb(198, 166, 8);
 }
-.text-blue {
+[title] {
+    color: rgb(5, 184, 44);
+}
+[title|="Підказка"] {
+    color:#c8c202
+}
+[title~="підказка"] {
+    color:#678259;
+}
+.big-title {
+   color:#6c43cd; 
+}
+.title + p {
+    color: rgb(207, 207, 5);
+}
+.text.blue {
     color: blue;
 }
-.text-blue  span {
-    color:rgba(120, 4, 197, 0.986)
+.text.blue  span {
+    color:rgba(184, 116, 6, 0.986)
 }
-
-.items li {
-    color:rgb(141, 153, 8)
+[class^="item"] {
+    color: rgb(106, 123, 5);
 }
-
-#population .title {
+[class$="item"] {
+    color: rgb(7, 40, 151);
+}
+div.people {
+    color: rgb(196, 6, 6);
+}
+.people .title {
     color:rgb(140, 5, 138)
 }
-#population > p {
-    color:rgb(180, 59, 7)
+p.life {
+    color: rgb(152, 72, 3);
 }
-.castle > h2 {
+.castle>h2 {
     color: rgba(227, 113, 6, 0.986);
 }
-.castle p {
+.castle>p {
     color: rgba(83, 47, 3, 0.986);
 }
-.footer-link {
-    color:rgba(4, 137, 246, 0.986);
+.castle>p>span {
+    color: orange;
+}
+.castle>p~p {
+    color: rgb(8, 225, 70);
+}
+.footer ul>li {
+    color:rgb(4, 195, 248);
+}
+.footer ul>li~li {
+    color:cornflowerblue;
+}
+
+
+/* Додаткове завдання */
+
+ul>li {
+    color: red;
+}
+ul>li~li {
+    color: green;
+}
+ul>li>ul>li {
+    color: blue;
+}
+ul>li>ul>li~li {
+    color: orange;
+}
+ul>li>ul>li>ol>li {
+    color: #4597f7;
+}
+ul>li>ul>li>ol>li~li {
+    color: #5d5d5d;
+}
+ul>li>ul>li>span {
+    color: #a0f0fc;
 }

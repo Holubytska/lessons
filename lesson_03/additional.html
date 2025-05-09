@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Additional task</title>
+    </head>
+
+    <body>
+
+<!-- 1 рівень вкладеності => перший li має бути червоного кольору, всі інші пункти зеленого кольору
+2 рівень вкладеності => перший li має бути синього кольору, всі інші li 2 рівня вкладеності помаранчевого
+3 рівень вкладеності => перший li має бути #4597f7кольору, всі інші li 3 рівня вкладеності #5d5d5d
+span в який загорнутий текст на лише 2 рівні вкладеності має бути кольору #a0f0fc
+
+P.S. - Додав умову: без використання класів спробуйте стилізувати  -->
+        <header>Header</header>
+        <main>
+            <ul>
+                <li>
+                    text red...
+                    <ul>
+                        <li>text blue...</li>
+                        <li>
+                            text orange...
+                            <ol>
+                                <li>text lightskyblue...</li>
+                                <li><span>text gray...</span></li>
+                                <li>text gray...</li>
+                                <li>text gray...</li>
+                            </ol>
+                        </li>
+                        <li>text orange...</li>
+                        <li><span>text span lightblue...</span></li>
+                    </ul>
+                </li>
+                <li>text green...</li>
+                <li>text green...</li>
+                <li>text green...</li>
+            </ul>
+        </main>
+        <footer>Footer</footer>
+    </body>
+
+</html>
