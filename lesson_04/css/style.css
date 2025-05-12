@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+@import url('fonts.css');
+
+@import url('reset.css');
+
+body {
+    font-family: 'Poppins', "Arial", sans-serif;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 42px;
+    color: #6b6a6a;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.title {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text {
+    color: #808080;
+    font-size: 18px; 
+    font-weight: 400;
+}
+
+/* ============= test task================= */
+ul>li {
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.8;
+    text-align: center;
+    color:rgba(115, 23, 23, 0.506);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+ul>li>ul>li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: justify;
+    text-indent: 10px;
+    text-transform: capitalize;
+    color:rgb(10, 216, 147);
+    text-decoration: line-through;
+}
+ul>li>ul>li~li {
+    color:rgb(237, 182, 116);
+    text-decoration: overline;
+    text-align: right;
+}
+ul>li>ul>li~li>span {
+    font-family: "Cocogoose", "Arial", sans-serif;
+    color:aqua;
+    font-size: 26px;
+    text-transform: lowercase;
+}
+ul>li>ul>li>ol>li {
+    color: yellowgreen;
+}
+ul>li>ul>li>ol>li~li {
+    color: rgb(243, 108, 238);
+}
+ul>li~li {
+    font-style: oblique;
+    color: darkgreen;
+    text-align: left;
+    text-transform: lowercase;
+    text-shadow: -3px -3px 3px #bec50d;
+}
+ul>li~li>a {
+    color: rgb(124, 4, 4);
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(9, 125, 3);
+    text-decoration-style: dashed;
+}
+ul>li~li>span {
+    color:rgb(245, 130, 98);
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 93, 108);
+    text-decoration-style: double;
+}
+/* ============Block-test================ */
+.block-title {
+    font-family: "Cocogoose", "Arial", sans-serif;
+    font-size: 48px;
+    line-height: 2;
+    color: rgb(174, 3, 3);
+    text-align: center;
+    text-shadow: 3px 3px 3px #454343;
+}
+.block-text {
+    font-size: 28px;
+    line-height: 1.1;
+    text-align: justify;
+    color:darkolivegreen;
+    text-shadow: -3px -3px 2px #bec50d,
+      -5px -5px 3px #1ca8db;
+}
+.dlock-descr {
+    font-size: 32px;
+    word-spacing: 7px;
+    color:rgb(1, 1, 101);
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 108, 4);
+    text-decoration-style: wavy;
+}
+.block-item {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.8;
+    text-align: right;
+    color:rgba(138, 91, 4, 0.816);
+    text-decoration: underline;
+    text-decoration-color: rgb(3, 95, 105);
+    text-decoration-style: dotted;
+}

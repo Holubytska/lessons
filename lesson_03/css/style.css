@@ -49,6 +49,9 @@ div.people {
 p.life {
     color: rgb(152, 72, 3);
 }
+.text-red * {
+    color:#c82302;
+}
 .castle>h2 {
     color: rgba(227, 113, 6, 0.986);
 }
@@ -59,7 +62,7 @@ p.life {
     color: orange;
 }
 .castle>p~p {
-    color: rgb(8, 225, 70);
+    color: #476c35;
 }
 .footer ul>li {
     color:rgb(4, 195, 248);
