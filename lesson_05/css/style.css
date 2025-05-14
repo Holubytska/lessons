@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+@import url('fonts.css');
+
+@import url('reset.css');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+[class*="-container"] {
+    max-width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header {
+    background-color: rgb(129, 202, 248);
+    color:white;
+    margin-bottom: 50px;
+}
+ header p {
+    padding: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+ }
+
+ /* ========Block===================== */
+.page {
+    padding: 20px 0;
+    color:#fff;
+}
+.page-text-1 {
+    background-color: #231F8B;
+    padding: 20px 25px 40px 20px;
+}
+.page-text-2 {
+    background-color: rgb(75, 175, 237);
+    padding: 15px 20px 30px;
+    height: 100px;
+    overflow: auto;
+    margin-top: -20px;
+}
+.page-text-3 {
+    background-color: #5A54F2;
+    padding: 30px 20px;
+}
+/* ===========Photo=================== */
+.photo {
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.photo-title {
+    font-size: 36px;
+    color:#231F8B;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px -3px 3px rgba(70, 175, 241, 0.909);
+    margin-bottom: 30px;
+}
+.photo-list {
+    font-size: 0;
+    margin: 0 -10px;
+}
+.photo-item {
+    display: inline-block;
+    font-size: 14px;
+    width: 25%;
+    padding: 0 10px;
+}
+.photo-img {
+    max-width: 100%;
+}
+
+ /* ========Макет==================== */
+.card {
+    background-color: #231F8B;
+    padding: 112px 0;
+}
+.card-info {
+    color: #ffffff;
+    max-width: 765px;
+    margin-bottom: 70px;
+}
+.card-subtitle {
+    color: #5A54F2;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+.card-title {
+    font-family: "Circular Std", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-family: "Circular Std", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+}
+.card-items {
+    font-size: 0;
+    margin: 0 -15px;
+}
+.card-item {
+    display: inline-block;
+    width: 25%;
+    padding: 0 15px;
+    vertical-align: top;
+}
+.card-content {
+    padding: 35px 40px;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0px 13px 19px 0px 
+                rgba(0, 0, 0, 0.07);
+}
+.card-img {
+    margin-bottom: 20px;
+}
+.card-item-title {
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 20px;
+}
+.card-decoration {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    margin-bottom: 20px;
+}
+.card-item-text {
+    color: #737373;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+}
+.bottom {
+    margin-top: 30px;
+}
+.content-purple {
+    background-color: #5A54F2;
+}
+.content-purple .card-item-title {
+    color:#fff;
+}
+.content-purple .card-item-text {
+    color:#fff;
+}
+.content-purple .card-decoration {
+    background-color: #fff;
+} 
+
+/* ======Footer================== */
+footer {
+    color: #fff;
+    background-color: #5A54F2;
+}
+footer p {
+    padding: 15px 25px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
