@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+@import url('fonts.css');
+
+@import url('reset.css');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+[class*="-container"] {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header {
+    background-color: #00B207;
+    color:white;
+    margin-bottom: 50px;
+}
+ header p {
+    padding: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+ }
+
+/* ========Section Ecobazar===================== */
+.ecobazar {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px;
+}
+.ecobazar-container {
+    max-width: 678px;
+}
+.ecobazar-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #6b6a6a;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #00B207;
+}
+.ecobazar-text {
+    color: #808080;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.ecobazar-text > p {
+    margin-bottom: 20px;
+}
+.ecobazar-list {
+    margin-bottom: 20px;
+}
+.ecobazar-item {
+    padding-left: 28px;
+    margin-bottom: 14px;
+    background: url("../img/icons/check.svg") 0 0 / 20px no-repeat;
+    min-height: 20px;
+}
+/* ============Hydra================================ */
+
+.hydra-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(58, 52, 86, 0.95);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px rgba(189, 178, 239, 0.956);
+    margin-bottom: 20px;
+}
+
+/* ========Section About===================== */
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background: url("../img/vector/about_bg1.png") 70% 25% no-repeat,
+                url("../img/vector/about_bg2.png") 45% 75% no-repeat,
+                #302C42;
+    color: #FFF;
+}
+.about-container {
+    max-width: 1302px;
+}
+.about-wrapper {
+    font-size: 0;
+    margin: 0 -10px;  
+}
+.about-item {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 10px;
+    vertical-align: top;
+}
+.about-item-mr {
+    max-width: 524px;
+    margin-right: 112px;
+}
+.about-item-top {
+    max-width: 630px;
+    margin-top: 47px;
+}
+.about-img {
+    overflow: clip;
+    border-radius: 240px 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-title,
+.about-link {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about-title {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+.about-subtitle {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 42px;
+}
+.about-text {
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+.about-link {
+    color: #343045;
+    font-size: 12px;
+    padding: 17px 43px;
+    line-height: 1;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+ /* ========Section Social===================== */
+
+.social {
+    padding: 95px 0;
+    background-color: #302C42;
+}
+.social-container {
+    max-width: 1302px;
+}
+.social-items {
+    padding: 26px 33px 34px 33px;
+    color: #FFF;
+    border-radius: 90px;
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%,
+     rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+.social-item {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.social-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.social-item-location {
+    padding-left: 65px;
+    padding-right: 42px;
+    padding-top: 26px;
+    padding-bottom: 24px;
+    background: url("../img/icons/location_icon.svg") 0 50% / 60px no-repeat;
+    min-height: 60px;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    margin-right: 45px;
+}
+.social-item-phone {
+    padding-left: 85px;
+    padding-right: 66px;
+    padding-top: 26px;
+    padding-bottom: 24px;
+    background: url(../img/icons/phone-call.svg) 0 50% / 60px no-repeat;
+    min-height: 60px;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    margin-right: 50px;
+}
+.social-item-email {
+    padding-left: 80px;
+    background: url(../img/icons/mail.svg) 0 50% / 65px no-repeat;
+    min-height: 65px;
+}
+
+
+/* ======Footer================== */
+footer {
+    color: #fff;
+    background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+}
+footer p {
+    padding: 15px 25px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
