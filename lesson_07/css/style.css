@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+@import url('fonts.css');
+
+@import url('reset.css');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+[class*="-container"] {
+    max-width: 1302px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header {
+    background-color: #00B207;
+    color:white;
+    margin-bottom: 50px;
+}
+ header p {
+    padding: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+ }
+
+/* ========Section Test===================== */
+/* батьківський блок зі стилями */
+.block {
+  background-color: #63b8e9;
+  color: white;
+  font-size: 20px;
+  border: 5px solid rgb(0, 51, 128);
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.link {
+    color: rgb(25, 2, 93);
+}
+/* приховування картинки */
+.image{
+  display:none;
+}
+
+/* зміна кольору для link при наведенні курсору на батьківський елемент */
+.block:hover .link {
+	color: rgb(128, 0, 19);
+}
+
+/* поява image при наведенні курсору на батьківський елемент */
+.block:hover .image {
+	display: block;
+}
+
+/* ========Section About===================== */
+
+
+
+ /* ========Section Social===================== */
+
+
+
+
+/* ======Footer================== */
+footer {
+    color: #fff;
+    background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+}
+footer p {
+    padding: 15px 25px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
