@@ -104,34 +104,33 @@ header {
 }
 .about-item-top {
     max-width: 630px;
-    margin-top: 47px;
+    padding-top: 47px;
 }
 .about-img {
     overflow: clip;
     border-radius: 45.80% 17.95%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.about-title,
+.about-title strong,
 .about-link {
     text-transform: uppercase;
     font-weight: 700;
 }
 .about-title {
-    font-size: 36px;
-    line-height: 1.1;
-    margin-bottom: 5px;
-}
-.about-subtitle {
     color: rgba(255, 255, 255, 0.95);
     font-size: 36px;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 1.1;
     margin-bottom: 42px;
+} 
+.about-title strong {
+    display: block;
+    margin-bottom: 5px;
 }
 .about-text {
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.625;
     margin-bottom: 28px;
 }
 .about-link {
