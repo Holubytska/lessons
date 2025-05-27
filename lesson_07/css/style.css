@@ -249,6 +249,16 @@ header {
     border: 3px solid #553caf;
     color:#553caf;
 }
+
+/* test */
+div.menu-bar ul ul {
+  display: none;
+}
+
+div.menu-bar li:hover > ul {
+  display: block;
+}
+
 /* ======Footer================== */
 footer {
     color: #fff;
