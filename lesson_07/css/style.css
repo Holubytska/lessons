@@ -150,7 +150,7 @@ header {
     margin-bottom: 20px;
 }
 .game-body {
-    width: 700px;
+    max-width: 700px;
 }
 .level {
     padding: 10px;
@@ -248,15 +248,6 @@ header {
     background: #fff;
     border: 3px solid #553caf;
     color:#553caf;
-}
-
-/* test */
-div.menu-bar ul ul {
-  display: none;
-}
-
-div.menu-bar li:hover > ul {
-  display: block;
 }
 
 /* ======Footer================== */
