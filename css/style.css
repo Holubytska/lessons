@@ -1,9 +1,9 @@
 @import url("reset.css");
 
 body {
-   font-family: "Roboto", sans-serif;
-   background: linear-gradient(251deg, #a0b5e9 12.87%, #625bb5 89.33%);
-   color:rgb(248, 247, 245);
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #d4cd11bf, #d45f11);
+    color:rgb(248, 247, 245);
 }
 .wrapper {
     overflow: clip;

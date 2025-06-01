@@ -125,6 +125,11 @@ header {
 .faculty-list {
     color: #4F4F4F;
 }
+.faculty-list li {
+    padding-left: 44px;
+    font-size: 20px;
+    line-height: 1.22;
+}
 .faculty-list > li:not(:last-child) {
     margin-bottom: 21px;
 }
@@ -133,8 +138,10 @@ header {
     background: url("../img/icons/check.svg") 0 0 / 100% no-repeat;
     width: 29px;
     height: 29px;
-    vertical-align: middle;
     margin-right: 15px;
+    margin-left: -44px;
+    display: block;
+    margin-bottom: -29px;
 }
 
 /* ==========Section Game===================== */
@@ -250,6 +257,62 @@ header {
     color:#553caf;
 }
 
+/* test */
+.menu {
+    padding: 50px 0;
+    background-color: #634eae;
+    color: #fff;
+    font-size: 24px;
+}
+.menu-container {
+}
+.menu-wrapper {
+    margin-bottom: 20px;
+}
+div.menu ul>ul:not(:last-child),
+div.menu ul>li:not(:last-child),
+div.menu ul>li>a:not(:last-child) {
+    margin-bottom: 10px;
+}
+div.menu ul ul {
+    visibility: hidden;
+}
+div.menu li:hover > ul {
+    visibility: visible;
+}
+ol>li:not(:last-child) {
+    margin-bottom: 15px;
+}
+ol{
+/* 1 */
+	counter-reset: list-counter;
+}
+
+ol li::before {
+/* 2 */
+	counter-increment: list-counter;
+/* 3 */
+	content: counter(list-counter)". ";
+	display: inline-block;
+	margin-right: 15px;
+	color: #f1edf6;
+}
+
+/* В цьому прикладі цифри будуть починатись з нуля, 01, 02, 03, … 09, 10, 11 */
+/*ol{*/
+/* 1 */
+	/*counter-reset: list-counter;
+}*/
+
+/*ol li::before {*/
+/* 2 */
+  /*counter-increment: list-counter;*/
+/* 3 */
+	/*content: counter(list-counter, decimal-leading-zero) ". ";
+	display: inline-block;
+	margin-right: 15px;
+	color: rgb(203, 228, 231);
+}*/
 /* ======Footer================== */
 footer {
     color: #fff;
