@@ -43,6 +43,7 @@ header p {
 .product-card {
     position: relative;
     max-width: 264px;
+    width: 100%;
     min-height: 327px;
     border: 1px solid #E6E6E6;
     background: #FFF;
