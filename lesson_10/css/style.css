@@ -106,7 +106,7 @@ header p {
     padding: 12px;
 }
 .product-card__info {
-    width: calc(100% -(42px + 10px));
+    max-width: calc(100% - 60px);
 }
 .product-card__title {
     font-size: 14px;
