@@ -252,12 +252,12 @@ header p {
 }
 .technology__content--top {
 }
-.technology__content-title {
+.technology__title {
     font-family: "Circular Std", sans-serif;
     text-transform: capitalize;
     margin-bottom: 13px;
 }
-.technology__content-title span {
+.technology__title span {
     text-transform: none;
 }
 .title {
