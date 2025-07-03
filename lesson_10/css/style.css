@@ -219,7 +219,9 @@ header p {
     position: absolute;
     top: 168px;
     left: -128px;
-    background: url('../img/vector/top_small_circle.svg') 0 0 / 65px no-repeat;
+    /* background: url('../img/vector/top_small_circle.svg') 0 0 / 65px no-repeat; */
+    border: 5px solid #FFBA49;
+    border-radius: 50%;
     z-index: 2;
 }
 .technology__image--top::before {
@@ -229,11 +231,12 @@ header p {
     position: absolute;
     bottom: -66px;
     left: -108px;
-    background: url('../img/vector/top_big_circle.svg') 0 0 / 401px no-repeat;
+    /* background: url('../img/vector/top_big_circle.svg') 0 0 / 401px no-repeat; */
+    border: 5px solid #FFBA49;
+    border-radius: 50%;
     z-index: 2;
 }
-.technology__image--margin-rigth,
-.technology__content--margin-rigt {
+.technology__image--margin-rigth {
     margin-right: 70px;
 }
 .technology__info {
@@ -245,9 +248,14 @@ header p {
 }
 .technology__content {
 }
+.technology__content--pading-rigt {
+    padding-right: 70px;
+}
 .technology__content p {
     font-weight: 400;
     line-height: 1.67;
+}
+.technology__content p:not(:last-child) {
     margin-bottom: 39px;
 }
 .technology__content--top {
@@ -265,6 +273,9 @@ header p {
     font-weight: 700;
 }
 .technology__button {
+}
+.technology__button--margin-bottom {
+    margin-bottom: 80px;
 }
 .button {
     width: 256px;
@@ -313,7 +324,9 @@ header p {
     position: absolute;
     top: -48px;
     left: 92px;
-    background: url('../img/vector/bottom_small_circle.svg') 0 0 / 65px no-repeat;
+    /* background: url('../img/vector/bottom_small_circle.svg') 0 0 / 65px no-repeat; */
+    border: 5px solid #FFBA49;
+    border-radius: 50%;
     z-index: 3;
 }
 .technology__image--bottom::before {
@@ -323,7 +336,9 @@ header p {
     position: absolute;
     top: -26px;
     right: -129px;
-    background: url('../img/vector/bottom_big_circle.svg') 0 0 / 262px no-repeat;
+    /* background: url('../img/vector/bottom_big_circle.svg') 0 0 / 262px no-repeat; */
+    border: 5px solid #FFBA49;
+    border-radius: 50%;
     z-index: 2;
 }
 /* ======Footer================== */
