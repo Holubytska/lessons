@@ -21,7 +21,7 @@
 
 	<body>
 		<div class="wrapper">
-			<header class="header" id="header">
+			<header class="header header--margin" id="header">
 				<div class="header__container">
 					<p>
 						I'm a Header
@@ -29,161 +29,157 @@
 				</div>
 			</header>
 			<main class="page">
-				<form method="post" action="#" enctype="multipart/form-data" class="form">
+				<form method="post" action="#" enctype="multipart/form-data" class="form form--margin">
 					<div class="form__container">
 						<div class="form__billing billing">
-							<div class="billing__container">
-								<div class="billing__information">
-									<h2 class="billing__title title">
-										Billing Information
-									</h2>
+							<div class="billing__information">
+								<h2 class="billing__title title">
+									Billing Information
+								</h2>
 
-									<div class="billing__row input">
-										<div class="input__wrapper">
-											<label for="first-name" class="label label--indent">First
-												name</label>
-											<input id="first-name" placeholder="Your first name"
-												name="form[]" type="text" class="field">
-										</div>
-										<div class="input__wrapper">
-											<label for="last-name" class="label label--indent">Last name</label>
-											<input id="last-name" placeholder="Your last name"
-												name="form[]" type="text" class="field">
-										</div>
-										<div class="input__wrapper">
-											<label for="company-name" class="label label--indent">Company
-												Name<span>(optional)</span></label>
-											<input id="company-name" placeholder="Company name"
-												name="form[]" type="text" class="field">
-										</div>
+								<div class="billing__row input">
+									<div class="input__wrapper">
+										<label for="first-name" class="label label--indent">First
+											name</label>
+										<input id="first-name" placeholder="Your first name"
+											name="form[]" type="text" class="field">
 									</div>
-
-									<div class="input input--long">
-										<label for="street-address" class="label label--indent">Street
-											Address</label>
-										<input id="street-address" placeholder="Email"
-											name="form[]" type="text" class="field input__stretch">
+									<div class="input__wrapper">
+										<label for="last-name" class="label label--indent">Last name</label>
+										<input id="last-name" placeholder="Your last name"
+											name="form[]" type="text" class="field">
 									</div>
-
-									<div class="billing__row select">
-										<div class="select__wrapper">
-											<label for="country" class="label label--indent">Country /
-												Region</label>
-											<select id="country" name="form[select]" class="select__item field">
-												<option value="1">Select</option>
-												<option value="2">Ukraine</option>
-												<option value="3">Spain</option>
-											</select>
-										</div>
-										<div class="select__wrapper">
-											<label for="states" class="label label--indent">States</label>
-											<select id="states" name="form[select]" class="select__item field">
-												<option value="1">Selects</option>
-												<option value="2">Kyiv</option>
-												<option value="3">Donetsk</option>
-												<option value="4">Ternopil</option>
-											</select>
-										</div>
-										<div class="input">
-											<label for="zip-code" class="label label--indent">Zip Code</label>
-											<input id="zip-code" placeholder="Zip Code"
-												name="form[]" type="text" class="field">
-										</div>
+									<div class="input__wrapper">
+										<label for="company-name" class="label label--indent">Company
+											Name<span>(optional)</span></label>
+										<input id="company-name" placeholder="Company name"
+											name="form[]" type="text" class="field">
 									</div>
-
-									<div class="billing__row input">
-										<div class="input__wrapper">
-											<label for="email" class="label label--indent">Email</label>
-											<input id="email" placeholder="Email Address"
-												name="form[]" type="email" class="input__stretch field">
-										</div>
-										<div class="input__wrapper">
-											<label for="phone" class="label label--indent">Phone</label>
-											<input id="phone" placeholder="Phone number"
-												name="form[]" type="tel" class="input__stretch field">
-										</div>
-									</div>
-
-									<label class="checkbox label">
-										<input name="form[]" type="checkbox" class="checkbox__input">
-										<span>Ship to a different address</span>
-									</label>
-
 								</div>
 
-								<hr>
+								<div class="input input--long">
+									<label for="street-address" class="label label--indent">Street
+										Address</label>
+									<input id="street-address" placeholder="Email"
+										name="form[]" type="text" class="field input__stretch">
+								</div>
 
-								<div class="billing__additional">
-									<h2 class="billing__sub-title title">
-										Additional Info
-									</h2>
-
-									<div class="textarea">
-										<label for="order-notes" class="label label--indent">Order Notes
-											(Optional)</label>
-										<textarea id="order-notes" name="form[textarea]"
-											placeholder="Notes about your order, e.g. special notes for delivery"
-											class="textarea__item field"></textarea>
+								<div class="billing__row select">
+									<div class="select__wrapper">
+										<label for="country" class="label label--indent">Country /
+											Region</label>
+										<select id="country" name="form[select]" class="select__item field">
+											<option value="1">Select</option>
+											<option value="2">Ukraine</option>
+											<option value="3">Spain</option>
+										</select>
 									</div>
+									<div class="select__wrapper">
+										<label for="states" class="label label--indent">States</label>
+										<select id="states" name="form[select]" class="select__item field">
+											<option value="1">Selects</option>
+											<option value="2">Kyiv</option>
+											<option value="3">Donetsk</option>
+											<option value="4">Ternopil</option>
+										</select>
+									</div>
+									<div class="input">
+										<label for="zip-code" class="label label--indent">Zip Code</label>
+										<input id="zip-code" placeholder="Zip Code"
+											name="form[]" type="text" class="field">
+									</div>
+								</div>
+
+								<div class="billing__row input">
+									<div class="input__wrapper">
+										<label for="email" class="label label--indent">Email</label>
+										<input id="email" placeholder="Email Address"
+											name="form[]" type="email" class="input__stretch field">
+									</div>
+									<div class="input__wrapper">
+										<label for="phone" class="label label--indent">Phone</label>
+										<input id="phone" placeholder="Phone number"
+											name="form[]" type="tel" class="input__stretch field">
+									</div>
+								</div>
+
+								<label class="checkbox">
+									<input name="form[]" type="checkbox" class="checkbox__input">
+									<span class="checkbox__label">Ship to a different address</span>
+								</label>
+
+							</div>
+
+							<div class="billing__additional">
+								<h2 class="billing__sub-title title">
+									Additional Info
+								</h2>
+
+								<div class="textarea">
+									<label for="order-notes" class="label label--indent">Order Notes
+										(Optional)</label>
+									<textarea id="order-notes" name="form[textarea]"
+										placeholder="Notes about your order, e.g. special notes for delivery"
+										class="textarea__item field"></textarea>
 								</div>
 							</div>
+
 						</div>
 						<div class="form__summary summary">
-							<div class="summary__container">
-								<div class="order order--indent">
-									<h2 class="order__title title">Order Summary</h2>
-									<ul class="order__list">
-										<li class="order__item">
-											<img src="img/img/green_capsicum.jpg" alt="green capsicum image">
-											<h3 class="order__sub-title">
-												<span class="order__name">Green Capsicum</span>
-												<span class="order__quantity">x5</span>
-											</h3>
-											<div class="price">$70.00</div>
-										</li>
-										<li class="order__item">
-											<img src="img/img/red_capsicum.jpg" alt="red capsicum image">
-											<h3 class="order__sub-title">
-												<span class="order__name">Red Capsicum</span>
-												<span class="order__quantity">x1</span>
-											</h3>
-											<div class="price">$14.00</div>
-										</li>
-									</ul>
-									<div class="order__sum">
-										<span>Subtotal:</span>
-										<div class="price">$84.00</div>
+							<div class="order order--indent">
+								<h2 class="order__title title">Order Summary</h2>
+								<ul class="order__list">
+									<li class="order__item">
+										<img src="img/img/green_capsicum.jpg" alt="green capsicum image">
+										<h3 class="order__sub-title">
+											<span class="order__name">Green Capsicum</span>
+											<span class="order__quantity">x5</span>
+										</h3>
+										<div class="price">$70.00</div>
+									</li>
+									<li class="order__item">
+										<img src="img/img/red_capsicum.jpg" alt="red capsicum image">
+										<h3 class="order__sub-title">
+											<span class="order__name">Red Capsicum</span>
+											<span class="order__quantity">x1</span>
+										</h3>
+										<div class="price">$14.00</div>
+									</li>
+								</ul>
+								<div class="order__sum">
+									<span>Subtotal:</span>
+									<div class="price">$84.00</div>
+								</div>
+								<div class="order__sum">
+									<span>Shipping:</span>
+									<div class="price">Free</div>
+								</div>
+								<div class="order__total">
+									<span>Total:</span>
+									<div class="price">$84.00</div>
+								</div>
+							</div>
+							<div class="payment">
+								<h2 class="payment__title title">Payment Method</h2>
+								<div class="payment__radio radio">
+									<div class="radio__wrapper">
+										<input checked type="radio" class="radio__item" name="form[payment]"
+											id="delivery">
+										<label for="delivery" class="radio__label label">Cash on
+											Delivery</label>
 									</div>
-									<div class="order__sum">
-										<span>Shipping:</span>
-										<div class="price">Free</div>
+									<div class="radio__wrapper">
+										<input type="radio" class="radio__item" name="form[payment]"
+											id="paypal">
+										<label for="paypal" class="radio__label label">Paypal</label>
 									</div>
-									<div class="order__total">
-										<span>Total:</span>
-										<div class="price">$84.00</div>
+									<div class="radio__wrapper">
+										<input type="radio" class="radio__item" name="form[payment]"
+											id="amazon">
+										<label for="amazon" class="radio__label label">Amazon Pay</label>
 									</div>
 								</div>
-								<div class="payment">
-									<h2 class="payment__title title">Payment Method</h2>
-									<div class="payment__radio radio">
-										<div class="radio__wrapper">
-											<input type="radio" class="radio__item" name="form[payment]"
-												id="delivery">
-											<label for="delivery" class="radio__label label">Cash on Delivery</label>
-										</div>
-										<div class="radio__wrapper">
-											<input type="radio" class="radio__item" name="form[payment]"
-												id="paypal">
-											<label for="paypal" class="radio__label label">Paypal</label>
-										</div>
-										<div class="radio__wrapper">
-											<input type="radio" class="radio__item" name="form[payment]"
-												id="amazon">
-											<label for="amazon" class="radio__label label">Amazon Pay</label>
-										</div>
-									</div>
-									<button type="submit" class="payment__button">Place Order</button>
-								</div>
+								<button type="submit" class="payment__button">Place Order</button>
 							</div>
 						</div>
 					</div>
