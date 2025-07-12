@@ -103,12 +103,14 @@
 									<div class="input__wrapper">
 										<label for="email" class="label label--indent">Email</label>
 										<input required id="email" placeholder="Email Address"
-											name="form[]" type="email" class="input__stretch field">
+											name="form[]" type="email" class="input__stretch field"
+											pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 									</div>
 									<div class="input__wrapper">
 										<label for="phone" class="label label--indent">Phone</label>
 										<input required id="phone" placeholder="Phone number"
-											name="form[]" type="tel" class="input__stretch field">
+											name="form[]" type="tel" class="input__stretch field"
+											pattern="\+?[0-9]{1,4}[0-9]{6,14}$">
 									</div>
 								</div>
 
