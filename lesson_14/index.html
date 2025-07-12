@@ -29,7 +29,8 @@
 				</div>
 			</header>
 			<main class="page">
-				<form method="post" action="#" enctype="multipart/form-data" class="form form--margin">
+				<form method="post" action="#" enctype="multipart/form-data"
+					class="form form--margin">
 					<div class="form__container">
 						<div class="form__billing billing">
 							<div class="billing__information">
@@ -41,12 +42,12 @@
 									<div class="input__wrapper">
 										<label for="first-name" class="label label--indent">First
 											name</label>
-										<input id="first-name" placeholder="Your first name"
+										<input required id="first-name" placeholder="Your first name"
 											name="form[]" type="text" class="field">
 									</div>
 									<div class="input__wrapper">
 										<label for="last-name" class="label label--indent">Last name</label>
-										<input id="last-name" placeholder="Your last name"
+										<input required id="last-name" placeholder="Your last name"
 											name="form[]" type="text" class="field">
 									</div>
 									<div class="input__wrapper">
@@ -60,7 +61,7 @@
 								<div class="input input--long">
 									<label for="street-address" class="label label--indent">Street
 										Address</label>
-									<input id="street-address" placeholder="Email"
+									<input required id="street-address" placeholder="Email"
 										name="form[]" type="text" class="field input__stretch">
 								</div>
 
@@ -68,7 +69,8 @@
 									<div class="select__wrapper">
 										<label for="country" class="label label--indent">Country /
 											Region</label>
-										<select id="country" name="form[select]" class="select__item field">
+										<select id="country" name="form[select]" class="select__item field"
+											required>
 											<option value="1">Select</option>
 											<option value="2">Ukraine</option>
 											<option value="3">Spain</option>
@@ -76,7 +78,8 @@
 									</div>
 									<div class="select__wrapper">
 										<label for="states" class="label label--indent">States</label>
-										<select id="states" name="form[select]" class="select__item field">
+										<select id="states" name="form[select]" class="select__item field"
+											required>
 											<option value="1">Selects</option>
 											<option value="2">Kyiv</option>
 											<option value="3">Donetsk</option>
@@ -85,7 +88,7 @@
 									</div>
 									<div class="input">
 										<label for="zip-code" class="label label--indent">Zip Code</label>
-										<input id="zip-code" placeholder="Zip Code"
+										<input required id="zip-code" placeholder="Zip Code"
 											name="form[]" type="text" class="field">
 									</div>
 								</div>
@@ -93,12 +96,12 @@
 								<div class="billing__row input">
 									<div class="input__wrapper">
 										<label for="email" class="label label--indent">Email</label>
-										<input id="email" placeholder="Email Address"
+										<input required id="email" placeholder="Email Address"
 											name="form[]" type="email" class="input__stretch field">
 									</div>
 									<div class="input__wrapper">
 										<label for="phone" class="label label--indent">Phone</label>
-										<input id="phone" placeholder="Phone number"
+										<input required id="phone" placeholder="Phone number"
 											name="form[]" type="tel" class="input__stretch field">
 									</div>
 								</div>
@@ -130,18 +133,24 @@
 								<h2 class="order__title title">Order Summary</h2>
 								<ul class="order__list">
 									<li class="order__item">
-										<img src="img/img/green_capsicum.jpg" alt="green capsicum image">
+										<a href="#"><img src="img/img/green_capsicum.jpg"
+												alt="green capsicum image"></a>
 										<h3 class="order__sub-title">
-											<span class="order__name">Green Capsicum</span>
-											<span class="order__quantity">x5</span>
+											<a href="#">
+												<span class="order__name">Green Capsicum</span>
+												<span class="order__quantity">x5</span>
+											</a>
 										</h3>
 										<div class="price">$70.00</div>
 									</li>
 									<li class="order__item">
-										<img src="img/img/red_capsicum.jpg" alt="red capsicum image">
+										<a href="#"><img src="img/img/red_capsicum.jpg"
+												alt="red capsicum image"></a>
 										<h3 class="order__sub-title">
-											<span class="order__name">Red Capsicum</span>
-											<span class="order__quantity">x1</span>
+											<a href="#">
+												<span class="order__name">Red Capsicum</span>
+												<span class="order__quantity">x1</span>
+											</a>
 										</h3>
 										<div class="price">$14.00</div>
 									</li>
