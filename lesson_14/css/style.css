@@ -87,6 +87,7 @@ header p {
 }
 
 .label {
+	display: inline-block;
 	font-size: 14px;
 	line-height: 1.2;
 	color:#1A1A1A;
@@ -99,6 +100,7 @@ header p {
 .label--indent:not(:last-child) {
 	margin-bottom: 8px;
 }
+
 
 .field {
 	width: 280px;
