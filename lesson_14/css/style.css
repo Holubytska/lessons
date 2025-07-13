@@ -158,8 +158,14 @@ header p {
 }
 
 .checkbox__label::before {
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 6px;
+}
+
+.checkbox__input:hover +.checkbox__label::before,
+.radio__item:hover +.radio__label::before {
+	border: 1px solid #00B307;
+	transition: border 0.3s;
 }
 
 .checkbox__input:checked + .checkbox__label::before {
@@ -221,6 +227,30 @@ header p {
 .order__item img {
 	width: 60px;
 	height: 60px;
+	transition: 0.3s;
+}
+.order__item a:hover img {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.order__item a {
+	position: relative;
+}
+
+.order__item a span::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    background-color: #00B207;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.order__item a span:hover::after {
+    width: 100%;
 }
 
 .order__name {
