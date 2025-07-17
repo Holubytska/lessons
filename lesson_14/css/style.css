@@ -126,15 +126,25 @@ header p {
 }
 
 .checkbox {
+	position: relative;
 	padding-top: 20px;
 	display: inline-flex;
 	cursor: pointer;
 }
 
 .checkbox__input {
-    opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
     width: 0;
     height: 0;
+	width: auto;
+}
+
+.checkbox__input:focus-visible + .checkbox__label {
+	outline: 1px solid #00B307;
+	outline-offset: 2px;
 }
 
 .checkbox__label {
@@ -306,12 +316,22 @@ header p {
 
 .radio__wrapper {
 	display: flex;
+	position: relative;
 }
 
 .radio__item {
+	position: absolute;
+	top: 0;
+	left: 0;
 	opacity: 0;
 	width: 0;
 	height: 0;
+	width: auto;
+}
+
+.radio__item:focus-visible + .radio__label {
+	outline: 1px solid #00B307;
+	outline-offset: 2px;
 }
 
 .radio__label {
